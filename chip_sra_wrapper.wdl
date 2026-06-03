@@ -16,7 +16,7 @@ version 1.0
 # (aligner, genome_tsv, peak caller, etc.) are passed through unchanged.
 # ─────────────────────────────────────────────────────────────────────────────
 
-https://raw.githubusercontent.com/ENCODE-DCC/chip-seq-pipeline2/refs/heads/master/chip.wdl as chip
+import "https://raw.githubusercontent.com/ENCODE-DCC/chip-seq-pipeline2/refs/heads/master/chip.wdl" as chip
 
 struct SampleInfo {
     String accession       # SRR accession, e.g. "SRR10069059"
