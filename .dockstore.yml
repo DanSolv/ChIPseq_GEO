@@ -1,0 +1,5 @@
+version: 1.2
+workflows:
+  - name: chip_sra_wrapper
+    subclass: WDL
+    primaryDescriptorPath: /chip_sra_wrapper.wdl
