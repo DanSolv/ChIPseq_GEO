@@ -27,8 +27,12 @@ struct SampleInfo {
 
 workflow chip_sra_wrapper {
 
+workflow chip_sra_wrapper {
+
     meta {
-        description: "Download FASTQs from SRA then run ENCODE ChIP-seq pipeline."
+        author: "Dan Solv"
+        email: ""
+        description: "Downloads FASTQs from SRA and runs the ENCODE ChIP-seq pipeline. Supports 1 input control and 1-4 IP replicates."
     }
 
     input {
