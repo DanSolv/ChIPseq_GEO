@@ -27,8 +27,6 @@ struct SampleInfo {
 
 workflow chip_sra_wrapper {
 
-workflow chip_sra_wrapper {
-
     meta {
         author: "Dan Solv"
         email: ""
